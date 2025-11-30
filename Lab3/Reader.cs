@@ -31,7 +31,7 @@ namespace Lab3_Zad1
                 Console.WriteLine($"  - {book.Title}");
             }
         }
-        public void View()
+        public override void View()
         {
             // 1️ wyświetlamy dane osoby (czyli wywołujemy metodę z Person)
             base.View();

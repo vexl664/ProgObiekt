@@ -23,7 +23,7 @@ namespace Lab3_Zad1
 
         // Metoda View()
 
-        public void View()
+        public virtual void View()
         {
             Console.WriteLine($"Osoba: {FirstName} {LastName}, Wiek: {Age}");
         }

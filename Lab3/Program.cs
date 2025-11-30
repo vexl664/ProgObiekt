@@ -26,7 +26,7 @@ namespace Lab3_Zad1
             r2.ReadBooks.Add(b4);
 
             // Wyświetlamy
-           
+
             r1.View();
             Console.WriteLine();
             r2.View();
