@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_Zad1
 {
-    internal class Person
+    public class Person
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -25,7 +25,7 @@ namespace Lab3_Zad1
 
         public void View()
         {
-            
+            Console.WriteLine($"Osoba: {FirstName} {LastName}, Wiek: {Age}");
         }
     }
 }

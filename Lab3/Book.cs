@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_Zad1
 {
-    internal class Book
+    public class Book
     {
         // POLA / WŁAŚCIWOŚCI
 
